@@ -1,3 +1,29 @@
+nodejs full api restful mongodb github
+https://github.com/maitraysuthar/rest-api-nodejs-mongodb
+https://www.techsupportpk.com/2020/03/how-to-install-and-secure-mongodb-on-ubuntu-debian.html
+sudo systemctl unmask mongodb && sudo service mongodb start
+
+MONGODB_URL=mongodb://127.0.0.1:27017/admin
+# Example Connection String:-
+# mongodb://127.0.0.1:27017/rest-api-nodejs-mongodb
+# mongodb://[MongodbHost]:[PORT]/[DatabaseName]
+
+JWT_SECRET=YourSecret
+# Example Secret:-  abcdefghijklmnopqrstuvwxyz1234567890
+
+JWT_TIMEOUT_DURATION="2 hours"
+# You can place duration available here: https://github.com/auth0/node-jsonwebtoken#usage
+# Search for "expiresIn" option on above link.
+
+EMAIL_SMTP_HOST=localhost:3000
+EMAIL_SMTP_PORT=587
+EMAIL_SMTP_USERNAME=example@gmail.com
+EMAIL_SMTP_PASSWORD=klkuulvoguwpykgf
+# true for 465, false for other ports
+EMAIL_SMTP_SECURE=false
+
+https://support.google.com/mail/answer/185833?hl=en&fbclid=IwAR0zKcp0bFG6vKtWWL9py3k5zzLD6KvnCX-bRN3lAUMgjpGPFWM65HmiHSY
+
 # Nodejs Expressjs MongoDB Ready-to-use API Project Structure
 [![Author](http://img.shields.io/badge/author-@maitraysuthar-blue.svg)](https://www.linkedin.com/in/maitray-suthar/) [![GitHub license](https://img.shields.io/github/license/maitraysuthar/rest-api-nodejs-mongodb.svg)](https://github.com/maitraysuthar/rest-api-nodejs-mongodb/blob/master/LICENSE)  ![GitHub repo size](https://img.shields.io/github/repo-size/maitraysuthar/rest-api-nodejs-mongodb) [![Codacy Badge](https://api.codacy.com/project/badge/Coverage/b3eb80984adc4671988ffb22d6ad83df)](https://www.codacy.com/manual/maitraysuthar/rest-api-nodejs-mongodb?utm_source=github.com&utm_medium=referral&utm_content=maitraysuthar/rest-api-nodejs-mongodb&utm_campaign=Badge_Coverage) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/b3eb80984adc4671988ffb22d6ad83df)](https://www.codacy.com/manual/maitraysuthar/rest-api-nodejs-mongodb?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=maitraysuthar/rest-api-nodejs-mongodb&amp;utm_campaign=Badge_Grade) ![Travis (.com)](https://img.shields.io/travis/com/maitraysuthar/rest-api-nodejs-mongodb)
 
@@ -9,7 +35,7 @@ A ready-to-use boilerplate for REST API Development with Node.js, Express, and M
 
 This is a basic API skeleton written in JavaScript ES2015. Very useful to building a RESTful web APIs for your front-end platforms like Android, iOS or JavaScript frameworks (Angular, Reactjs, etc).
 
-This project will run on **NodeJs** using **MongoDB** as database. I had tried to maintain the code structure easy as any beginner can also adopt the flow and start building an API. Project is open for suggestions, Bug reports and pull requests. 
+This project will run on **NodeJs** using **MongoDB** as database. I had tried to maintain the code structure easy as any beginner can also adopt the flow and start building an API. Project is open for suggestions, Bug reports and pull requests.
 
 ## Advertise for Job/Work Contract
 
